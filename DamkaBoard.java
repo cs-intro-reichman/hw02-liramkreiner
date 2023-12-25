@@ -8,7 +8,7 @@ public class DamkaBoard {
 		{
 			for (int j = 0 ; j < damkanumber; j ++)
 			{
-				System.out.print(" * ");
+				System.out.print("* ");
 			}
 				
 				System.out.println("");
