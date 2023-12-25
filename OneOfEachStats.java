@@ -59,11 +59,11 @@ public class OneOfEachStats {
 		System.out.println("Number of families with 4 or more children: "+count4ch);
 		int commonfamily = Math.max( (Math.max(count2ch,count3ch)),count4ch);
 		if (commonfamily == count2ch)
-			System.out.println("The most common number of children is 2");
+			System.out.println("The most common number of children is 2.");
 			else if (commonfamily == count3ch)
-					System.out.println("The most common number of children is 3");
+					System.out.println("The most common number of children is 3.");
 						else if (commonfamily == count4ch)
-						System.out.println("The most common number of children is 4 or more");
+						System.out.println("The most common number of children is 4 or more.");
 
 
   
