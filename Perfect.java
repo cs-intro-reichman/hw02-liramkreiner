@@ -16,8 +16,9 @@ public class Perfect {
 			}
 			thedeviser++;
 		}
+
 		if(sum == theperfctumber)
-			System.out.println( theperfctumber+" is a perfect number since " + sequence + "= " + theperfctumber);
+		System.out.println( theperfctumber+" is a perfect number since " + theperfctumber + " = " + sequence.substring(0,sequence.length()-3) );
 		else System.out.println(theperfctumber + " is not a perfect number");
 	}
 }
