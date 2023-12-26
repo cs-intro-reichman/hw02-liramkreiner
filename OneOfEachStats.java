@@ -52,12 +52,12 @@ public class OneOfEachStats {
 			if (countlocalchild > 3 )
 					count4ch++;	
 		}
-		double numberoffamilydouble = 0.0 + numberoffamily;
+		double numberoffamilydouble = 0.0 + numberoffamily; //casting the number of family to double and printing the average number and the number of each family
 		System.out.println("Average: "+ countotalchildern/numberoffamilydouble +" children to get at least one of each gender.");
 		System.out.println("Number of families with 2 children: "+count2ch);
 		System.out.println("Number of families with 3 children: "+count3ch);
 		System.out.println("Number of families with 4 or more children: "+count4ch);
-		int commonfamily = Math.max( (Math.max(count2ch,count3ch)),count4ch);
+		int commonfamily = Math.max( (Math.max(count2ch,count3ch)),count4ch); //checking which of the number of child is most common
 		if (commonfamily == count2ch)
 			System.out.println("The most common number of children is 2.");
 			else if (commonfamily == count3ch)
