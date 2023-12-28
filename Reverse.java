@@ -5,15 +5,15 @@
 public class Reverse {
 	public static void main (String[] args)
 	{
-		String revstring = "";
+		String revstring = "";//define a new string to be the reverse
 		String strorigin = args[0];
-		for(int i = strorigin.length() - 1; i > -1; i --)
+		for(int i = strorigin.length() - 1; i > -1; i --)//getting from the last char to the first one
 		{
-			revstring = revstring + strorigin.charAt(i);		
+			revstring = revstring + strorigin.charAt(i);//run from the last char of the origin string and add it to new string		
 		}
 
 		System.out.println(revstring);
-		System.out.println("The middle character is " + strorigin.charAt((strorigin.length()-1)/2));
+		System.out.println("The middle character is " + strorigin.charAt((strorigin.length()-1)/2));//printing the middle char
 
 
 
