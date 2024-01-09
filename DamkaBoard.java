@@ -8,12 +8,14 @@ public class DamkaBoard {
 		{
 			for (int j = 0 ; j < damkanumber; j ++) //using for in for to print both line and queue
 			{
-				if(i % 2 == 0) //check if he is evan line to order the *
-				System.out.print("* ");
-			else System.out.print(" *");
+				// #feedback: use always {} to scope your logic - even when there is only one line of code inside.
+				if(i % 2 == 0) { //check if he is evan line to order the *
+					System.out.print("* ");
+				} else {
+					System.out.print(" *");
+				}
 			}
-				
-				System.out.println(""); 
+			System.out.println(""); 
 		}
 	}
 }
